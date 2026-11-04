@@ -1,0 +1,15 @@
+{
+  "chunk_size": 240,
+  "overlap": 40,
+  "dense": true,
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "embedding_revision": null,
+  "top_k": 12,
+  "max_context_chars": 9000,
+  "llm_model": "Qwen/Qwen3.5-4B",
+  "temperature": 0,
+  "top_p": 1,
+  "max_tokens": 512,
+  "timeout": 120,
+  "llm_backend": "local_transformers_4bit"
+}
